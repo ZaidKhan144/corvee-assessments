@@ -1,0 +1,193 @@
+/* Global resets */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+}
+
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+.card {
+  width: 263px;
+  height: 334px;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card span {
+  font-weight: 600;
+}
+
+.card .info {
+  color: #fff;
+  background-color: #424242;
+  padding: 0.75em;
+  borfer-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.info span {
+  font-size: 1em;
+}
+
+.info span:nth-child(2) {
+  vertical-align: text-bottom;
+  font-size: 0.9em;
+}
+
+.info span:nth-child(4) {
+  vertical-align: text-top;
+}
+
+.info:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 91%;
+  margin-left: -20px;
+  width: 0;
+  height: 0;
+  border: 6px solid;
+  border-color: #424242 transparent transparent;
+}
+
+.progress-bar {
+  border-style: solid;
+  border-width: 2px 2px 0 2px;
+  border-color: #d9d9d9;
+  height: 15px;
+  background-image: linear-gradient(
+    to right,
+    #ef5f3c,
+    #ef5f3c 75%,
+    #fafafa 75%,
+    #fafafa 100%
+  );
+}
+
+.card-content {
+  color: #777;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 20px 25px 20px 25px;
+  text-align: left;
+  border: 2px solid #d9d9d9;
+  box-shadow: 0 4px 0 0 #f4f4f4;
+}
+
+.card-content p {
+  margin-bottom: 1em;
+}
+
+.card-content .countdown span {
+  color: #ef5f3c;
+}
+
+.card-content .countdown span:nth-child(2) {
+  vertical-align: sub;
+}
+
+.card-content .donors span:nth-child(2) {
+  font-size: 0.9em;
+}
+
+form {
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 0 0 1.2em 0;
+}
+
+form:after {
+  content: "$";
+  left: 10px;
+  font-size: 1.3em;
+  font-family: sans-serif;
+  font-weight: 600;
+  top: 35%;
+  position: absolute;
+}
+
+form input[type="text"] {
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  width: 45%;
+  margin-right: 8%;
+  color: #424242;
+  padding: 20px;
+  font-size: 1.3em;
+  height: 50px;
+  vertical-align: top;
+  border-radius: 5px;
+  box-shadow: inset 0px 4px 0px 0px #fafafa;
+}
+
+#give {
+  width: 45%;
+  height: 50px;
+  font-size: 1.2em;
+  vertical-align: top;
+  border-radius: 5px;
+  border: 2px solid #01b21a;
+  border-bottom-width: 4px;
+  color: #fff;
+  font-family: "rooney-sans";
+  background-color: #1cbc2c;
+}
+
+.why {
+  color: #20A1D4;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.why span {
+  font-weight: 500;
+  vertical-align: text-top;
+}
+
+.card-share {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.card-share button {
+  width: 46%;
+  color: #777;
+  border-radius: 5px;
+  background-color: #fafafa;
+  padding: 0.9em;
+  font-family: "rooney-sans";
+  font-size: 0.9em;
+  font-weight: 600;
+  border: 2px solid #d9d9d9;
+  border-bottom-width: 4px;
+}
+
+.card-share button:nth-child(1) {
+  margin-right: 8%;
+}
