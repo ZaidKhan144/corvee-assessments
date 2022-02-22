@@ -20,6 +20,34 @@ Your component will render as you type and be positioned beneath the image. If i
 
 We hope you do well and thank you for taking the time!
 
+## Algorithm Assessment
+
+Write a function: function smallestInt(A);
+
+that, given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
+
+Example: given A = [1, 3, 6, 4, 1, 2], the function should return 5.
+
+Given A = [1, 2, 3], the function should return 4.
+Given A = [-1, -3], the function should return 1.
+
+Write an efficient algorithm for the following assumptions:
+
+N is an integer within the range [1..100,000];
+each element of array A is an integer within the range [−1,000,000..1,000,000].
+
+Write test cases to validate that your implementation conforms to the specification.
+
+Additionally, implement the benchmark function to test the performance of your solution. The benchmark should be able to run in the browser and be capable of outputting a reasonably reliable score when comparing solutions in the same environment.
+
+You will be evaluated based on:
+- Correctness according to instructions
+- Algorithmic efficiency
+- Scope of test cases
+- Code style and quality
+
+You're advised to include any less efficient solutions or pseudo code definitions of such solutions in your final submission.
+
 ## Accessing The Assessment
 
 For the CSS Assessment, it is crucial that you understand that there are many different ways to solve this and we are looking for a solution that is algorithmically efficient.  So bear in mind that there are multiple solutions that would not be considered good enough.
